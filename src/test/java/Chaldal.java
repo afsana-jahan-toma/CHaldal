@@ -44,7 +44,8 @@ public class Chaldal {
         // driver.findElement(By.xpath("//tbody/tr[1]/td[1]/input[1]")).sendKeys(Keys.ENTER);
         Thread.sleep(1000);
         driver.findElement(By.xpath("(//section[@class=\"addButtonWrapper border-radius-small\"])[1]")).click();
-
+        driver.findElement(By.xpath("//tbody/tr[1]/td[1]/input[1]")).click();
+        driver.findElement(By.xpath("//tbody/tr[1]/td[1]/input[1]")).sendKeys("Medicine");
 
 
     }
